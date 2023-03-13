@@ -1,0 +1,133 @@
+/*======Media Query for large screens=======*/
+@media (width <= 1200px) {
+    .unsucessful p {
+        padding: 0px 20px;
+    }
+}
+
+/*======Media Query for medium screens=======*/
+@media (width <= 992px) {
+    .header a.nav-link.active {
+        width: auto;
+        display: inline-block;
+        margin-left: 12px;
+    }
+    .cancellation-confirmed {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .left-sign-box h1 {
+        padding: 140px 20px 0px 42px;
+    }
+    .inner-google {
+        padding: 13px;
+    }
+    .inner-google a {
+        font-size: 16px;
+    }
+    .sign-in-form input {
+        padding: 15px 23px 10px 23px;
+    }
+}
+
+/*======Media Query for tablets screens=======*/
+@media (width <= 768px) {
+    .confirmed-inner {
+        display: block;
+    }
+}
+
+/*======Media Query for mobile screens=======*/
+@media (width <= 576px) {
+    .sign-in .floating_container{
+        width: unset;
+    }
+    .packages h1, .confirmed-inner h4, .Cancellation h3, .Reduced-price h3, .unsucessful h2, .upper-text-free-sign h5 {
+        font-size: 20px;
+        }
+        .packages p {
+            font-size: 14px;
+            margin-bottom: 0px;
+        }
+        .box {
+            margin-top: 0px;
+        }
+        .package-inner {
+            margin-bottom: 0px;
+        }
+        .cancellation-inner {
+            margin-top: 20px;
+        }
+        .cancellation-buttons {
+            text-align: center;
+            margin: 20px 0px 20px 0px;
+        }
+        .essay-notes .btn-primary {
+            margin-bottom: 20px;
+        }
+        .compltete-button  button.btn-primary {
+            display: block;
+            width: 100%!important;
+        }
+        .Contact-us .text-center p {
+            font-size: 14px;
+            margin-bottom: 5px;
+            line-height: 22px;
+        }
+        form.inner-contact label {
+            font-size: 14px;
+        }
+        .righ-notes p {
+            margin-top: 0px;
+        }
+        .cancel h6 {
+            margin-top: 0px;
+        }
+        .unsucessful p {
+            margin-bottom: 25px;
+        }
+        .terms-of-service .text-center {
+            text-align: left!important;
+            margin-bottom: 10px;
+        }
+        .Reduced-inner {
+            margin-top: 15px;
+        }
+        .google-sign span.border-or::before {
+            width: 0px; 
+        }
+        .sign-in {
+            padding: 0px; 
+        }
+        .left-sign-box h1 {
+            padding: 20px;
+        }
+        .sign-in-images {
+            padding-left: 0px;
+            margin-top: 0px;
+        }
+        .sign-in-form {
+            padding: 0px 20px;
+        }
+        .inner-google {
+            margin-top: 17px;
+            margin-bottom: 18px;
+        }
+        .terms-of-service h5 {
+            margin-bottom: 15px;
+        }
+        .upper-text-free-sign button.btn-primary {
+            padding: 13px 78px;
+        }
+        .essay-notes {
+            padding: 0px 0px;
+        }
+        #upload-inn-notes button.btn.btn-primary {
+            width: 40%;
+        }
+}
+
+/*======Media Query for tabs only=======*/
+@media (576px >= width <= 768px) {
+
+}

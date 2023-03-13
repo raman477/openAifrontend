@@ -1,0 +1,1153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+  height: 100%;
+  box-sizing: border-box;
+}
+p {
+  color: #666;
+}
+a,
+a:hover {
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+}
+button.btn-primary {
+  background: linear-gradient(92.09deg, #af1cfd 0%, #1f41fe 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+.sign-in .signup_left {
+  position: relative;
+}
+.bg-gradients {
+  background: linear-gradient(92.09deg, #af1cfd 0%, #1f41fe 100%) !important;
+}
+.main_content {
+  padding-top: 72px;
+}
+/*======header=======*/
+.header {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 999;
+}
+.header .navbar.bg-light {
+  background: #fff !important;
+  padding: 18px 0px;
+}
+.header a.nav-link.active {
+  background: -webkit-linear-gradient(45deg, #a31ffd, #393afe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header a.nav-link.signin {
+  background: linear-gradient(45deg, #a31ffd, #393afe);
+  border-radius: 5px;
+  color: #fff !important;
+}
+/* .header .navbar-light .navbar-nav .nav-link:hover {
+    background: -webkit-linear-gradient(45deg, #a31ffd, #393afe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+/* .header a.nav-link.active:hover{
+    background: linear-gradient(45deg, #a31ffd, #393afe);
+    border-radius: 5px;
+    color: #fff!important; 
+} */
+.header .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 12px;
+  padding: 6px 11px;
+  cursor: pointer;
+}
+/*======Package inner=======*/
+.package-inner {
+  border: 2px solid #99999959;
+  border-radius: 10px;
+  padding: 20px;
+  height: 403px;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.package-inner button.btn.btn-dark {
+  width: 85%;
+  background: #000;
+  position: absolute;
+  bottom: 17px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+.package-inner h4:nth-child(1) {
+  margin-bottom: 23px;
+}
+.package-inner h4 {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+.packages h1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+.package-inner p {
+  font-size: 13px;
+}
+.package-inner ul li,
+.Reduced-inner ul li {
+  color: #616163;
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+  line-height: 27px;
+}
+.package-inner ul {
+  margin-top: 42px;
+}
+.package-inner ul li i {
+  font-size: 8px;
+  color: #000;
+  margin-right: 8px;
+}
+.package-inner ul li.light-font {
+  font-weight: 400 !important;
+}
+.box i {
+  color: #56e6a5;
+  margin-right: 10px;
+}
+.package-inner:hover {
+  background: linear-gradient(92.09deg, #af1cfd 0%, #1f41fe 100%);
+}
+.package-inner:hover h4,
+.package-inner:hover ul li i {
+  color: #fff;
+}
+.package-inner:hover p,
+.package-inner:hover ul li {
+  color: #d0d0d1;
+}
+.box {
+  margin-top: 70px;
+}
+.inner-subscription p {
+  font-size: 14px;
+  line-height: 25px;
+  color: #999;
+}
+.inner-package-text {
+  padding: 50px 0px;
+}
+.inner-package-text .bg-white {
+  padding: 30px;
+  background: linear-gradient(92.09deg, #af1cfd -6%, #1f41fe 100%);
+}
+.inner-package-text .bg-white h6,
+.inner-package-text .bg-white p,
+.inner-package-text .bg-white .check-out-form label {
+  color: #fff;
+}
+.inner-package-text .check-out-form .btn-primary {
+  background: #3a3c4e;
+}
+.inner-content_ img {
+  width: 100%;
+}
+.inner-content_ ul li {
+  color: #999;
+  font-size: 15px;
+}
+.inner-content_ ul {
+  padding: 0px;
+}
+.inner-content_ ul li {
+  color: #999;
+  font-size: 15px;
+  list-style: none;
+}
+.inner-content_ ul li i {
+  color: #5334fe;
+  font-size: 16px;
+  margin-right: 10px;
+  line-height: 31px;
+}
+/*==================Sign in page====================*/
+.inner-google a {
+  color: #000;
+  font-size: 14px;
+}
+.inner-google img {
+  width: 30px;
+  margin-right: 20px;
+}
+.inner-google {
+  border: 1px solid #878ea1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 19px;
+  margin-bottom: 23px;
+}
+.google-sign span.border-or {
+  font-size: 20px;
+  position: relative;
+  background: #fff;
+  padding: 0px 26px;
+}
+.google-sign span.border-or::before {
+  content: "";
+  background: #c2c8d0;
+  width: 440px;
+  height: 2px;
+  position: absolute;
+  top: 10px;
+  left: -225%;
+  z-index: -1;
+  margin: 0 auto;
+}
+.sign-in-form .form-group {
+  position: relative;
+  margin-bottom: 30px;
+}
+.sign-in-form input,
+form.signin input {
+  width: 100%;
+  padding: 12px 23px 10px 23px;
+  border-radius: 11px;
+  border: 1px solid #878ea1;
+  /* margin-bottom: 31px; */
+}
+
+form.signin label {
+  color: #878ea1;
+  margin-top: 14px;
+  margin-bottom: 9px;
+}
+form.signin label {
+  color: #878ea1;
+  margin-bottom: 10px;
+}
+.sign-in-form label {
+  position: absolute;
+  background: #fff;
+  width: unset;
+  left: 14px;
+  top: -10px;
+  padding: 0px 10px;
+  color: #878ea1;
+  font-size: 13px;
+}
+.sign-in-form input::placeholder {
+  color: #9799a4;
+  font-size: 17px;
+}
+.sign-in-form button.btn-primary {
+  width: 100%;
+}
+.sign-in-form a.last-link {
+  text-decoration: underline !important;
+  color: #016fd0;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+.sign-in-form a.last-link:hover {
+  background: -webkit-linear-gradient(45deg, #a31ffd, #393afe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.sign-in-form button.btn-primary {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.google-sign {
+  margin-bottom: 27px;
+}
+.left-sign-box {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.left-sign-box h1 {
+  /* align-items: center; */
+  width: 100%;
+  height: 100%;
+  /* padding: 140px 161px 0px 42px; */
+}
+.sign-in-form {
+  /* padding: 0px 50px; */
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+.sign-in-images img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  width: 37px;
+  margin-right: -12px;
+}
+.sign-in-images {
+  display: flex;
+  /* padding-left: 40px; */
+  align-items: center;
+  margin-top: 25px;
+}
+.sign-in-images p {
+  color: #fff;
+  padding-left: 37px;
+  font-size: 12px;
+  margin-top: 15px;
+}
+.sign-in .col-lg-6.bg-white {
+  box-shadow: 0px 0px 2px #999999e8;
+  position: relative;
+  /* padding: 30px 0px; */
+}
+/*==================Essay notes page====================*/
+.essay-notes label,
+.essay-notes input,
+.check-out-form label,
+.check-out-form input {
+  width: 100%;
+}
+.essay-notes input {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 14px;
+}
+.essay-notes input::placeholder,
+.essay-notes textarea#textAreaExample1::placeholder {
+  color: #72767e;
+  font-size: 13px;
+  font-style: italic;
+}
+.essay-notes textarea#textAreaExample1 {
+  margin-top: 10px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+.essay-notes .btn-primary {
+  width: 100%;
+  padding-bottom: 14px;
+}
+.essay-notes .btn-primary span {
+  background: rgba(23, 10, 7, 0.2);
+  padding: 8px;
+  margin-left: 24px;
+  font-size: 12px;
+}
+.essay-notes {
+  padding: 50px 0px;
+}
+.righ-notes p {
+  font-style: italic;
+  color: #999;
+  font-size: 13px;
+  margin-top: 32px;
+}
+.bold-hd h1 {
+  font-weight: 700;
+  font-size: 32px !important;
+  font-style: italic;
+  margin-top: 30px;
+  display: none;
+}
+.Cancellation h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+/*==================Cancellation page====================*/
+.Cancellation h3,
+.Reduced-price h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.cancellation-inner p {
+  font-style: italic;
+  color: #9799a4;
+  font-size: 14px;
+}
+.cancellation-inner {
+  background: #ffffff;
+  border: 0.5px solid #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 32px;
+  text-align: center;
+  margin-top: 40px;
+  height: 80%;
+}
+.cancellation-inner img {
+  margin-bottom: 13px;
+}
+.cancellation-inner h4 {
+  font-size: 17px;
+  font-weight: 600;
+}
+.cancellation-buttons .btn-primary {
+  padding: 10px 20px;
+  margin-left: 25px;
+}
+button.btn-light {
+  border: 0px;
+}
+.cancellation-buttons {
+  text-align: right;
+  margin: 72px 0px 20px 0px;
+}
+/*==================Cancellation Reduced page====================*/
+.Reduced-inner {
+  border: 0.5px solid #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 26px;
+  margin-top: 35px;
+}
+.Reduced-inner p {
+  font-style: italic;
+  color: #9799a4;
+  text-align: center;
+}
+.Reduced-inner ul li {
+  color: #9799a4;
+  font-style: italic;
+  font-weight: 400;
+}
+.Reduced-inner ul li i {
+  font-size: 9px;
+  margin-right: 10px;
+}
+.Reduced-inner button {
+  width: 100%;
+}
+.Reduced-inner h4,
+.Reduced-inner h5 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Reduced-inner img {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+}
+.Reduced-price {
+  margin-bottom: 50px;
+}
+/*==================Cancellation confirmed page====================*/
+.cancellation-confirmed .text-center p i {
+  color: #00bf69;
+  margin-right: 10px;
+}
+.cancellation-confirmed .text-center p {
+  color: #000;
+}
+.confirmed-inner {
+  border: 0.5px solid #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 33px;
+}
+.confirmed-inner img {
+  display: block;
+  margin: 0 auto;
+}
+.confirmed-inner h4 {
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 14px;
+}
+.confirmed-inner {
+  display: flex;
+}
+.image-inner {
+  margin-left: 83px;
+}
+.confirmed-inner p {
+  color: #000;
+  font-size: 15px;
+  line-height: 25px;
+}
+.cancellation-confirmed {
+  margin-top: 35px;
+}
+/*==================Check Out page====================*/
+.form-group {
+  text-align: left;
+}
+.check-out-form .btn-primary {
+  width: 100%;
+}
+.check-out-form img {
+  width: 20px;
+  margin-right: 20px;
+}
+.cancel h6 {
+  font-weight: 700;
+  margin-top: 35px;
+}
+.check-out-form label {
+  color: #9799a4;
+  font-size: 14px;
+  margin-bottom: 8px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.check-out-form input, .input-imgg {
+  border: 1px solid #d8e2e2;
+  border-radius: 6px;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+.check-out-form select.form-select {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 11px;
+}
+.check-out-form p {
+  color: #9799a4;
+}
+.check-out-form p {
+  color: #9799a4;
+  font-size: 14px;
+  line-height: 24px;
+}
+.check-out-form .btn-primary {
+  width: 100%;
+  margin-bottom: 22px;
+  margin-top: 14px;
+}
+.Check-out-page {
+  margin: 40px 0px;
+}
+.card-img img {
+  width: 17%;
+  margin-right: 2px;
+}
+.card-img {
+  text-align: right;
+  top: 37px;
+  display: inline;
+  width: 156px;
+}
+.input-imgg input {
+  border: 0px;
+  margin-bottom: 0px;
+}
+.input-imgg input:focus { outline: none; } 
+.input-imgg {
+  display: flex;
+  width: 100%;
+}
+.first-inner-col {
+  position: relative;
+}
+/*==================Thank you page====================*/
+.essay-notes .modal-body p {
+  color: #525252;
+  font-size: 14px;
+}
+.modal-main .modal-footer {
+  border-top: 0px!important;
+}
+.modal-main .modal-footer button {
+  width: 100%;
+  padding: 16px;
+  margin: 0px 30px 20px;
+}
+.modal-main  .modal-dialog {
+  width: 450px;
+}
+.modal-main .modal-header {
+  border-bottom: 0px;
+  padding: 24px;
+}
+.modal-main .modal-body p {
+  font-size: 14px;
+  margin-bottom: 3px;
+  padding: 0px 25px;
+}
+.modal-main .modal-body {
+  padding-bottom: 5px;
+}
+.modal-main .modal-body img {
+  margin-bottom: 31px;
+}
+.essay-notes .modal-footer,
+.essay-notes .modal-header {
+  border: 0px;
+}
+.essay-notes .modal-content {
+  padding: 0px 40px;
+}
+.essay-notes .modal-dialog {
+  max-width: 453px;
+  margin: 1.75rem auto;
+}
+.essay-notes .modal-body img {
+  margin-bottom: 36px;
+}
+.essay-notes .modal {
+  top: 20px;
+}
+/*==================Completed essay page====================*/
+.righ-notes-nner p {
+  color: #000;
+  font-size: 14px;
+  line-height: 30px;
+}
+.compltete-button button {
+  width: auto !important;
+}
+.compltete-button {
+  text-align: right;
+}
+.complete-box h5 {
+  color: #2bad82;
+  font-size: 17px;
+  font-weight: 600;
+}
+.complete-box {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 13px 13px 7px 14px;
+  margin-bottom: 16px;
+}
+.complete-box h6 {
+  font-size: 14px;
+}
+.all-feed h5 {
+  font-size: 13px;
+}
+.all-feed p {
+  font-size: 12px;
+}
+.complete-box p {
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 2px;
+  line-height: 24px;
+}
+.compltete-button button.btn-primary {
+  background: linear-gradient(92.09deg, #af1cfd 0%, #1f41fe 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px 8px 24px;
+  font-size: 12px;
+  padding-bottom: 12px !important;
+  margin-bottom: 12px;
+}
+.righ-notes-nner {
+  padding: 0px 20px 0px 10px;
+  border-right: 1px solid #d9d9d9;
+}
+.toolip-hover {
+  display: none;
+}
+.complete-red:hover .toolip-hover {
+  display: block !important;
+}
+/*==================unidays-family page====================*/
+.unidays-family h4.uniday-hd {
+  color: #00000061;
+  position: relative;
+}
+.unidays-family h4.uniday-hd::before {
+  content: "";
+  background: #000;
+  width: 2px;
+  height: 36px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 33px;
+  top: -4px;
+}
+.unidays-family h4.uniday-hd span {
+  color: #000;
+  margin-left: 12px;
+}
+.package-inner.bg-gradients ul li,
+.package-inner.bg-gradients .box p,
+.package-inner.bg-gradients ul li i,
+.package-inner.bg-gradients p,
+.package-inner.bg-gradients h4 span {
+  color: #fff !important;
+}
+.save-box-family.bg-gradients {
+  position: absolute;
+  right: 0;
+  padding: 7px 16px;
+  border-radius: 30px;
+  top: -18px;
+}
+.save-box-family.bg-gradients p {
+  color: #fff;
+  margin-bottom: 0px;
+}
+.unidays-family.bg-gradients .save-box-family.bg-gradients {
+  background: #fff !important;
+  border: 1px solid #9999995e;
+}
+.unidays-family.bg-gradients .save-box-family.bg-gradients p {
+  background: linear-gradient(90.77deg, #ff50cd 0%, #6844ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.unidays-family.bg-gradients h4.uniday-hd::before {
+  background: #fff !important;
+}
+.package-inner.unidays-family.bg-gradients h4,
+.package-inner.bg-gradients h4 {
+  color: #fff;
+}
+.package-inner.unidays-family.bg-gradients h4.uniday-hd {
+  color: #ffffff96;
+}
+.package-inner:hover h4.uniday-hd::before {
+  background: #fff !important;
+}
+.package-inner:hover h4.uniday-hd {
+  color: #ffffff96;
+}
+.package-inner:hover h4.uniday-hd span {
+  color: #fff;
+}
+.package-inner:hover .save-box-family.bg-gradients {
+  background: #fff !important;
+  border: 1px solid #9999995e;
+}
+.package-inner:hover .save-box-family.bg-gradients p {
+  background: linear-gradient(90.77deg, #ff50cd 0%, #6844ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.4s;
+}
+/*==================unidays-family page====================*/
+img.unsucessful-img {
+  margin-bottom: 35px;
+}
+.unsucessful p {
+  font-size: 15px;
+  padding: 0px 97px;
+  margin-bottom: 62px;
+}
+span.bg-danger.alert-box-s {
+  background-color: #dc354542 !important;
+}
+.complete-red p.complete-toolip {
+  background: #ff00004a;
+  display: inline;
+}
+.toolip-hover {
+  position: absolute;
+  width: 80%;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #999;
+  padding: 15px 15px 0px 30px;
+  color: #000;
+  left: 10%;
+  top: 53px;
+}
+.complete-red {
+  position: relative;
+}
+span.left-border {
+  border: 1px solid #f00;
+  width: 2px;
+  height: 140px;
+  position: absolute;
+  left: 16px;
+}
+/*==================Upload your notes and sign in page====================*/
+div#exampleModal .modal-header a {
+  text-decoration: underline !important;
+  font-size: 13px;
+}
+.sign-up-form input {
+  padding: 12px 23px 14px 23px;
+  margin-bottom: 16px;
+}
+.sign-up-form input::placeholder {
+  font-size: 13px;
+  color: #000;
+}
+.singn-up-or-text {
+  text-align: center;
+}
+.singn-up-or-text p::before {
+  content: "";
+  border: 1px solid #c2c8d0;
+  position: absolute;
+  width: 42%;
+  left: 15px;
+  right: 0;
+  top: 10px;
+}
+.singn-up-or-text p::after {
+  content: "";
+  border: 1px solid #c2c8d0;
+  position: absolute;
+  width: 40%;
+  right: 26px;
+  top: 10px;
+}
+.singn-up-or-text {
+  position: relative;
+}
+.sign-up-form {
+  padding: 0px 10px;
+}
+.sign-up-form .inner-google a {
+  font-size: 15px;
+}
+.google-sign.sign-up-form .inner-google {
+  padding: 12px;
+}
+.singn-up-or-text {
+  position: relative;
+  margin-top: 4px;
+  margin-bottom: -13px !important;
+}
+.sign-up-form-top p.text-center {
+  font-size: 14px;
+}
+/*==================Sign up free page====================*/
+.upper-text-free-sign h1,
+.header .navbar-light .navbar-brand p {
+  background: linear-gradient(90.77deg, #ff50cd 22%, #6844ff 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.header .navbar-light .navbar-brand p {
+  font-size: 30px;
+}
+.upper-text-free-sign h5 {
+  color: #555555;
+  font-weight: 600;
+  font-size: 25px;
+}
+.upper-text-free-sign button.btn-primary {
+  padding: 13px 110px;
+  margin-top: 22px;
+}
+/*==================Contact us page====================*/
+.Contact-us .text-center p {
+  color: #646b81;
+  font-size: 16px;
+  margin-bottom: 60px;
+}
+form.inner-contact input,
+textarea.wpcf7-form-control.wpcf7-textarea {
+  width: 100%;
+  border: 1px solid #878ea1;
+  border-radius: 4px;
+  padding: 9px;
+}
+form.inner-contact label {
+  color: #9799a4;
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+form.inner-contact input::placeholder {
+  color: #000;
+  font-size: 14px;
+}
+form.inner-contact textarea.wpcf7-form-control.wpcf7-textarea::placeholder {
+  font-style: italic;
+}
+form.inner-contact button {
+  width: 100%;
+  margin-top: 10px;
+}
+.inner-contact {
+  margin-bottom: 40px;
+}
+/*==================Credit modal and completed essay page====================*/
+.credits button {
+  margin-bottom: 10px;
+}
+.credits .modal-body img {
+  margin-bottom: 60px;
+}
+/*==================Terms of service page====================*/
+.terms-of-service h5 {
+  color: #646b81;
+  margin-bottom: 35px;
+}
+.terms-of-service h6,
+.terms-of-service p,
+.terms-of-service ul li {
+  color: #9799a4;
+  font-size: 14px;
+}
+.terms-of-service h6 {
+  margin-top: 35px;
+  font-weight: 700;
+}
+.terms-of-service {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+/*==================Privacy policy page====================*/
+.privacy-policy h5 {
+  margin-bottom: 0px;
+}
+
+/*==================Recently added Css====================*/
+.sign-in {
+  height: 100vh;
+}
+.sign-in .floating_container {
+  /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; */
+}
+.input-error {
+  font-size: 14px;
+  color: red;
+}
+.checkout_terms span {
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.checkout_terms span:hover {
+  color: #939393;
+}
+.sign-in-form.remove-excess {
+  position: unset !important;
+  transform: none !important;
+  width: 100% !important;
+  padding-top: 20px;
+}
+.sign-in-form.remove-excess button {
+  margin-bottom: 0px;
+}
+.modal-body .singn-up-or-text {
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+}
+.unidays_logo {
+  width: 100%;
+}
+.unidays_logo img {
+  width: 40%;
+}
+
+/*----------signin form-------------*/
+#signUpDiv {
+  display: flex;
+  justify-content: center;
+}
+.right-signin.bg-gradients h2,
+.right-signin.bg-gradients p {
+  color: #ffff;
+}
+.right-signin {
+  padding: 40px;
+  height: 100%;
+  position: relative;
+}
+button.btn-dark {
+  background: #030304;
+  border: none;
+  padding: 9px 26px;
+  border-radius: 5px;
+}
+.right-signin.bg-gradients p {
+  padding: 8px 0px;
+}
+form.signin label,
+form.signin input {
+  width: 100%;
+}
+.left-signin {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 43px 60px;
+  border: 1px solid #99999938;
+  height: 100%;
+}
+.sin-in-page .col-lg-7,
+.sin-in-page .col-lg-5 {
+  padding: 0px;
+}
+.left-signin button.btn-primary {
+  margin-top: 30px;
+  display: block;
+  width: 100%;
+}
+.forgot-signin h6 {
+  display: inline-block;
+}
+.forgot-signin {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.sin-in-page {
+  height: 100vh;
+  position: relative;
+}
+.sin-in-page .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.inner-signin {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.unidays_logo2 {
+  max-height: 40px;
+  width: auto;
+}
+.singn-up-or-text.margin_btm {
+  margin-bottom: 20px !important;
+}
+
+/* Modal css */
+.modal-dialog .modal-header .btn-close {
+  position: absolute;
+  right: 20px;
+}
+.modal-dialog .modal-header a {
+  margin-right: 30px;
+  cursor: pointer;
+}
+.modal-dialog .modal-header a:hover {
+  background: -webkit-linear-gradient(45deg, #a31ffd, #393afe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 576px) {
+  .sin-in-page .container {
+    position: unset;
+    transform: none;
+  }
+  .sin-in-page,
+  .right-signin,
+  .left-signin {
+    height: auto;
+  }
+  .inner-signin {
+    position: unset;
+    transform: unset;
+  }
+  .left-signin {
+    padding: 20px;
+  }
+}
+
+.typewriter {
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 auto;
+    border-right: .15em solid orange; 
+    white-space: pre-line;
+    letter-spacing: .15em;
+    animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+    /* animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite; */
+  }
+  /* .essay-notes {
+    padding: 50px 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-bottom: 50px;
+}
+
+
+.essay-notes .righ-notes-nner {
+    height: 500px;
+    overflow: scroll;
+} */
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+  
+  
+  /* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#999;
+}
+.type {
+  color:#0000;
+  background:
+    linear-gradient(-90deg,#000 5px,#0000 0) 10px 0,
+    linear-gradient(#000 0 0) 0 0;
+  background-size:calc(var(--n)*1ch) 200%;
+  -webkit-background-clip:padding-box,text;
+  background-clip:padding-box,text;
+  background-repeat:no-repeat;
+  animation: 
+   b .4s infinite steps(1),   
+   t calc(var(--n)*.3s) steps(var(--n)) forwards;
+}
+
+@keyframes t{
+  from {background-size:0 200%}
+}
+@keyframes b{
+  50% {background-position:0 -100%,0 0}
+}
